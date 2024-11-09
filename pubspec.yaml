@@ -1,0 +1,27 @@
+name: mybestlocation_flutter
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.3
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
+  http: ^1.2.2
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/map_dark.json
+    - assets/map_light.json
